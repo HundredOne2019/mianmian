@@ -5,16 +5,49 @@ import java.util.Date;
 public class Company {
 
     private String id;
+    /**
+     * 名称
+     */
     private String name;
+    /**
+     * 注册日期
+     */
     private Date expirationDate;
+    /**
+     * 地址
+     */
     private String address;
+    /**
+     * 营业执照编号
+     */
     private String licenseId;
+    /**
+     * 法人
+     */
     private String representative;
+    /**
+     * 电话
+     */
     private String phone;
+    /**
+     * 规模
+     */
     private String companySize;
+    /**
+     * 所属行业
+     */
     private String industry;
+    /**
+     * 备注/描述
+     */
     private String remarks;
+    /**
+     * 状态
+     */
     private Integer state;
+    /**
+     * 所在地
+     */
     private String city;
 
     public String getId() {
